@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #79b2e7;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+    background-image: src="https://kanebridgenews.com/application/assets/2021/04/GettyImages-1222045163.jpg" alt="Imagem Chatbot";
+}
+
+.conteudo-principal{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     background-image: src="https://kanebridgenews.com/application/assets/2021/04/GettyImages-1222045163.jpg";
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #04d304;
+    width: 185px;
+    height: 67px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px #1e6d06;
+    border-radius: 30px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    transition: 1s;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background: #4eff18;
+}
+
+.conteudo-principal-imagem{
+    margin-top: 60px;
+    height: 400px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #ffff;
+}
+.divIframe {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+  }
